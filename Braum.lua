@@ -410,7 +410,7 @@ Callback.Bind(CallbackType.OnTick, ontick)
 local function OnSpellAnimationStart(sender, CastArgs)
     if sender.isMe then
 
-        if CastArgs.target and not CastArgs.target.isHero then
+        if CastArgs.target and not CastArgs.target.isHero and  CastArgs.target.isHero then
 
             local ally = GetCursRangeAlly(CastArgs.target.position, 500)
             if ally then

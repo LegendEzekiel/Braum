@@ -3,7 +3,7 @@ if 3904786569 ~= Game.localPlayer.hash then --Game.HashStringSDBM("TwistedFate")
     return
 end
 Champions.CppScriptMaster(false);
-Environment.LoadModule("Renata");
+Environment.LoadModule("Braum");
 
 --UnLoad
 Callback.Bind(CallbackType.OnUnload, function()
